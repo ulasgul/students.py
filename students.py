@@ -25,3 +25,10 @@ student3 = {
 students = [student1, student2, student3]
 for student in students:
 print(f"Name: {student['first_name']} {student{'last_name']}, Index: {student['index_number']}")
+def add_student(first_name, last_name, index_number):
+  new_student = {
+    'first_name': first_name,
+    'last_name': last_name,
+    'index_number': index_number
+  }
+  students.append(new_student)
